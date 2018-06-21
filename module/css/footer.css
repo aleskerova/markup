@@ -1,0 +1,49 @@
+.container-fliud.footer-container {
+	margin: 0;
+	padding: 5% 0 5% 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f0f0f0;
+}
+
+.row.flex-row {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+
+a.internet img {
+	width: 15px;
+}
+
+.row.flex-row a {
+	font-family: Playfair Display;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, .9);
+	font-style: normal;
+}
+
+.left a,
+.right a {
+	margin-right: 20px;
+}
+
+.right a:hover {
+	text-decoration: none;
+}
+
+a.internet {
+	margin-right: 10px;
+}
+
+
+@media screen and (max-width: 991px) {
+    
+	.right {
+		float: center!important;
+	}
+    
+}

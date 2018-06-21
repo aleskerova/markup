@@ -1,0 +1,14 @@
+body {
+	background-color: white;
+}
+
+@font-face {
+    font-family: Playfair Display; /* Имя шрифта */
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Ubuntu; /* Имя шрифта */
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0"> 
